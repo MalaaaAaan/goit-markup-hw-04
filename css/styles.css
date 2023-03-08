@@ -23,7 +23,8 @@ body {
 .top-line {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;height: 72px;
+    justify-content: space-between;
+    height: 72px;
 
 }
 .logo {
@@ -33,15 +34,19 @@ body {
     text-decoration: none;
     color: var(--Main-text);
     text-transform: uppercase;
-    letter-spacing: 0.03em; margin-left: 156px;
+    letter-spacing: 0.03em;
+     margin-left: 156px;
 }
 
 .navigaton-menu {
-    display: flex; gap: 76px; align-items: baseline; margin-top: 24px;
-        margin-bottom: 24px;
+    display: flex; 
+    gap: 76px;
+    align-items: baseline;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
-.main-menu {
+.navigation-list {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -61,7 +66,7 @@ body {
 
 }
 
-.nav-link:hover {
+.nav-link:hover :focus {
     color: var(--hover-color);
 }
 
@@ -71,13 +76,16 @@ body {
 
 .adress-menu {
     display: flex;
-    flex-direction: row; margin-right: 156px;
+    flex-direction: row;
+    margin-right: 156px;
 }
 
 .adress-list {
     list-style: none;
-    display: flex;margin-top: 24px;
-        margin-bottom: 24px; gap: 40px;
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    gap: 40px;
 }
 .adress-item{font-weight: 500;}
 
@@ -96,15 +104,22 @@ body {
 }
 
 .hero-img {
-    background-color: var(--background-color); display: flex; 
-        height: 600px;flex-direction: column; justify-content: center; align-items: center;
+    background-color: var(--background-color);
+     display: flex; 
+        height: 600px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
 
 .hero-text { display: flex;
     color: var(--white-text-color);
     font-size: 56px;
-    line-height: 1.07;align-self: center;width: 496px;
-        height: 120px;text-align: center;
+    line-height: 1.07;
+    align-self: center;
+    width: 496px;
+    height: 120px;
+    text-align: center;
 }
 
 .hero-button {
@@ -112,38 +127,66 @@ body {
     color: var(--white-text-color);
     cursor: pointer;
     font-weight: 500;
-    letter-spacing: 0.04em; display: flex; ;height: 56px; width: 169px;align-items: center; justify-content: center;
-    font-size: 16px;border-radius: 4px;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); border:none;
+    letter-spacing: 0.04em;
+    display: flex;
+    height: 56px;
+     width: 169px;
+     align-items: center;
+      justify-content: center;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border:none;
 }
 
 .text-hide {
     display: none;
 }
-.feature{display: flex; margin-top: 120px;justify-content: center}
+.feature{display: flex;
+    margin-top: 120px;
+    justify-content: center}
 .feature-list {
-    list-style: none; display: flex; gap: 24px; padding: 0px; margin: 0px;
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding: 0px;
+    margin: 0px;
 }
 .feature-item{ width: 264px;}
 
 .feature-title {
     font-size: 20px;
     line-height: 1.2;
-    font-weight: 500;margin: 0px;
+    font-weight: 500;
+    margin: 0px;
 }
 
 .feature-text {
-    color: var(--text-color); margin: 0px;margin-top: 8px;
+    color: var(--text-color);
+    margin: 0px;
+    margin-top: 8px;
 }
-.actions{display: flex; flex-direction: column;align-items: center;margin-top: 120px;}
+.actions{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+    margin-top: 120px;}
 .section-title {
     font-size: 36px;
     color: var(--title-color);
     line-height: 1.1;
-    text-transform: capitalize; display: flex; justify-self: center; margin-bottom: 72px; margin-top: 0px;
+    text-transform: capitalize;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 72px;
+    margin-top: 0px;
 }
 
 .actions-img-list { display: flex;
-    list-style: none; gap: 24px; padding: 0px; margin: 0px  ;
+    list-style: none; 
+    gap: 24px; 
+    padding: 0px; 
+    margin: 0px;
 }
 
 .actions-img {
@@ -154,17 +197,22 @@ body {
 .team {display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--team-list-background-color);margin-top: 120px; height: 732px;
+    background-color: var(--team-list-background-color);margin-top: 120px;
+    height: 732px;
 }
 .team-title{margin-top: 120px;}
 
 .team-list-main {
-    list-style: none; display: flex; gap: 24px;margin: 0px;
-        padding: 0px;
+    list-style: none; 
+    display: flex; 
+    gap: 24px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .team-list {
-    background-color: var(--img-background-color);box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    background-color: var(--img-background-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px; display: flex; flex-direction: column; align-items: center
 }
 
@@ -178,16 +226,23 @@ body {
     color: var(--title-color);
     font-size: 20px;
     line-height: 1.2;
-    font-weight: 500;margin-top: 32px;margin-bottom: 8px;
+    font-weight: 500;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .team-position {
-    color: var(--text-color);margin: 0px; margin-bottom: 32px;
+    color: var(--text-color);
+    margin: 0px;
+    margin-bottom: 32px;
 }
 
 .bottom-line {
     background-color: var(--background-color);
-    color: var(--white-text-color); height: 310px; display: flex; flex-direction: column;
+    color: var(--white-text-color); 
+    height: 310px; 
+    display: flex; 
+    flex-direction: column;
 }
 
 .logo-down {
@@ -196,7 +251,8 @@ body {
     font-weight: 800;
     text-align: left;
     text-decoration: none;
-    color: var(--white-text-color);margin-left: 156px; margin-top: 100px; margin-bottom: 16px;
+    color: var(--white-text-color);margin-left: 156px; margin-top: 100px;
+    margin-bottom: 16px;
 }
 .bottom-text{margin-left: 156px; width: 264px; }
 
