@@ -173,17 +173,17 @@ gap: 76px; align-items: center;}
         margin-top: 8px;
     }
 /**--------------------- Actions section ---------------------*/
-.actions
+.actions{padding-bottom: 120px;}
 
 
 .actions-list{ display: flex;
 gap: 24px;
 }
 /**--------------------- Team section ---------------------*/
-.team{padding-top:115px;
-padding-bottom: 5px;} 
+.team{
+background-color: var(--team-list-background-color);} 
 .team-container{
-        background-color: var(--team-list-background-color);
+        
 padding: 120px 0;
 
     }
@@ -214,15 +214,15 @@ text-align: center;}
 }
 
 .logo-down {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
-    text-align: left;
     text-decoration: none;
     color: var(--white-text-color);
 }
 .bottom-text{width: 264px;
-color: var(--bottom-line-text--);}
+color: var(--bottom-line-text--);
+margin-top: 16px;}
 
  /**--------------------- portfolio ---------------------*/
  .portfolio{padding: 96px 0 120px 0;}
@@ -257,13 +257,8 @@ color: var(--bottom-line-text--);}
     }
 .cards-list{display: flex;
     flex-wrap: wrap;
-    gap: 24px; margin-top: 72px;}
+    gap: 48px 24px; margin-top: 72px;}
 
-.cards-list-item{margin-top: 48px;}
-.cards-list-item:nth-child(2){margin-top: 0;}
-.cards-list-item:nth-child(3) {
-    margin-top: 0;
-}
 .cards-list-item:first-child {
     margin-top: 0;
 }
@@ -271,10 +266,10 @@ color: var(--bottom-line-text--);}
 .cards-title{color: var(--title-color);
     font-size: 20px; 
     line-height: 1.2;
-    margin-bottom: 8px;}
+    margin-bottom: 8px;
+font-weight: 500;}
 .cards-text{color: var(--text-color);
 }
-.cards-text-box{padding: 32px 0px;
+.cards-text-box{padding: 32px 0 32px 16px;
 border: 1px solid #E7E9FC; border-top: 0; }
 /**--------------------- footer ---------------------*/
-
