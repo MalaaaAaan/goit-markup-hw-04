@@ -284,6 +284,7 @@ body {
 }
 .social-media-icons-item:focus {
   background-color: var(--hover-color);
+  border-radius: 20px;
 }
 .social-media-link {
   width: 40px;
@@ -461,4 +462,13 @@ body {
   border: 1px solid #e7e9fc;
   border-top: 0;
 }
-/**--------------------- footer ---------------------*/
+.cards-text-box:hover {
+  border: 1px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.cards-text-box:focus {
+  border: 1px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
